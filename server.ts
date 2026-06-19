@@ -31,6 +31,7 @@ import voosRoutes from "./src/routers/voos.js";
 server.use("/produtos", produtosRoutes);
 server.use("/ping", pingRoutes);
 server.use("/voos", voosRoutes);
+server.use("/alunos", alunosRoutes);
 
  server.listen(3000, () => {
         console.log("Servidor rodando 100%")
